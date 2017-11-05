@@ -4,7 +4,15 @@ html, body {
   height: 100%;
   overflow-y: hidden;
   background: linear-gradient(to bottom, rgba(136,213,229,1) 0%, rgba(89,196,217,1) 100%);
+  font-family: "Quicksand";
 }
+
+
+.header h1, h2 { margin: 0; }
+.header h1 { color: #666; }
+.number {color: #999}
+.type { color: #cea27c; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
 
 .content {
   height: 80%;
