@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #20202c 0%,#515175 100%);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+  color: #ddd;
+}
+.number {
+  color: #cccc;
+}
+.social a img {
+  width: 1.5em;
+}
+
+.type {
+  color: #ec186c;
+  text-shadow: 1px 2px #6d206e;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background:url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat center top;
+}
+
+.planet {
+  height: 6em;
+  position: absolute;
+}
+
+#A { top: 25%; left: 25%; }
+#B { top: 25%; left: 75%; }
+#C { top: 60%; left: 25%; }
+#D { top: 60%; left: 75%; }
+
+#rocket {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  height: 5em;
+  transition: all 2s ease-in;
+/*   animation: shake 0.2s ease-in-out 0.2s infinite alternate; */
+}
+
+@keyframes shake {
+ from { transform: rotate(1deg); }
+ to { transform-origin: center center; transform: rotate(-1deg); }
+}
+  

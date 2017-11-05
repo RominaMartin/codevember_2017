@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ddd;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+/* Card */
+.card {
+  font-family: 'Kalam';
+  width: 375px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #f1eded;
+  background-image: url("https://i.imgsafe.org/bb/bbcef1d6cd.png");
+  background-position: 10px;
+}
+
+.card h1 {
+  color: #D0378C;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(208,55,40,0.3);
+}
+
+.card h2 {
+  color: #007777;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3);
+}
+
+#container {
+  margin: 0 25%;
+}
+/* Title */
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  text-align: center;
+  color: #004040;
+  margin: 0;
+}
+
+.info input {
+  margin: 1em;
+  padding: 4px;
+  text-align: center;
+}
+/* Codevember number */
+.header h1, h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #666;
+}
+.number {color: #ccc}
+
+.type {
+  color: #007777;
+  text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3);
+}
+
+/* Social */
+.social a img {
+  height: 1.5em;
+}
+
+/* Spectrum */
+.sp-container.sp-light.sp-input-disabled.sp-palette-buttons-disabled.sp-palette-disabled.sp-initial-disabled {
+  top: 250px !important;
+  left: 75% !important;
+}

@@ -1,0 +1,84 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #dedede;
+  font-family: "Quicksand"
+}
+
+.header h1, h2 { margin: 0; }
+.header h1 { color: #666; }
+.number {color: #ccc}
+
+.type { color: #007777; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+
+.social a img { height: 1.5em; }
+
+.game {
+  margin-bottom: 5px;
+  text-align: center;
+}
+#restart {
+  opacity: 0;
+  background-color: #95C45C;
+  border: none;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 1em;
+/*   transition: all 1s ease-in; */
+}
+.deck {
+  text-align: center;
+  width: 700px;
+  position: relative;
+  margin: 0 auto;
+  backface-visibility: hidden;
+}
+.card {
+  width: 175px;
+  height: 200px;
+  margin: 10px;
+  margin-top: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 1s ease-in;
+/*   transform-style: preserve-3d; */
+}
+
+.flip {
+  transform: rotateY( 180deg );
+}
+
+.type_1.active {
+  background-color: #f4f3e9;
+  background-image: url('https://i.imgsafe.org/ce/ce3599dbfb.png');
+/*   transform: rotateY( 180deg ); */
+/*   transition: all .75s ease-in; */
+}
+
+.type_2.active {
+  background-color: #f4f3e9;
+  background-image: url('https://i.imgsafe.org/ce/ce3596a2e2.png');
+/*   transform: rotateY( 180deg ); */
+/*   transition: all .75s ease-in; */
+}
+
+.type_3.active {
+  background-color: #f4f3e9;
+  background-image: url('https://i.imgsafe.org/ce/ce3596ebd4.png');
+/*   transform: rotateY( 180deg ); */
+/*   transition: all .75s ease-in; */
+}
+
+.error {
+  animation: shake .5s linear;
+}
+
+@keyframes shake {
+  10%, 90% {transform: translate3d(-1px, 0, 0); }
+  20%, 80% {transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {transform: translate3d(-4px, 0, 0); }
+  40%, 60% {transform: translate3d(4px, 0, 0); }
+}
