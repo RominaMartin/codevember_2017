@@ -1,0 +1,66 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: radial-gradient(ellipse at center, rgba(255,223,186,1) 0%, rgba(192,223,217,1) 100%);
+	overflow: hidden;
+	font-family: 'Quicksand';
+}
+
+.header h1, h2 { margin: 0; }
+.header h1 { color: #666; }
+.number {color: #ccc}
+.type { color: #cea27c; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+
+.content {
+	position: relative;
+}
+
+#canvas {
+	width: 380px;
+  height: 230px;
+	pointer-events: none;
+	z-index: 0;
+  margin-left: 25%;
+  margin-top: 12%;
+	background: radial-gradient(ellipse at center, rgba(32,49,67,1) 0%, rgba(16,27,45,1) 50%, rgba(7,11,23,1) 86%, rgba(1,1,1,1) 100%);
+}
+
+#cat {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 15%;
+}
+
+.canvas_container {
+	width: 700px;
+	height: 490px;
+	position: absolute;
+	left: 15%;
+	top: 0;
+}
+
+.smoke {
+	animation: smoke 3s ease-in-out forwards infinite;
+}
+
+#window {
+	animation: lighting 4s linear infinite;
+}
+
+#toggle_sound {
+	position: absolute;
+}
+
+@keyframes smoke {
+  0%, 100% { transform: translate(0, 0); }
+  20%, 60% { transform: translate(1px, 0); }
+  40%, 80% { transform: translate(-1px, 0); }
+}
+
+@keyframes lighting {
+	0%, 10% {opacity: .75}
+  20%, 100% {opacity: .5}
+}
