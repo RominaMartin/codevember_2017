@@ -1,0 +1,39 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+	background-color: #f9f1eb;
+  font-family: "Quicksand";
+}
+
+
+.header h1, h2 { margin: 0; }
+.header h1 { color: #666; }
+.number {color: #999}
+.type { color: #FF7182; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #cea27c; text-align: center; }
+
+svg {
+	max-height: 400px;
+}
+
+.shaking {
+	animation: shake 100ms ease-in-out 30;
+}
+
+.warn {
+	animation: shake .5s ease-in-out infinite;
+}
+
+@keyframes shake {
+	2% {
+    transform: translate(1px, -1px) rotate(-0.5deg); }
+  5%, 90% {
+    transform: translate(2px, 3px) rotate(-0.5deg); }
+  10% {
+    transform: translate(-3px, 3px) rotate(-0.5deg); }
+  20%, 60% {
+    transform: translate(0px, -2px) rotate(-0.5deg); }
+}
