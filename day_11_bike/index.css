@@ -1,0 +1,44 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+	background-color: #f2f2f2;
+  font-family: "Quicksand";
+}
+
+.header h1, h2 { margin: 0; }
+.header h1 { color: #666; }
+.number {color: #999}
+.type { color: #434140; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #cea27c; text-align: center; }
+
+.wall {
+	background: url(background.png);
+  background-repeat: repeat-x;
+  height: 390px;
+	animation: move_background 10s linear infinite;
+}
+
+.bike svg {
+	position: absolute;
+  top: 280px;
+  height: 275px;
+}
+
+#back_wheel,
+#front_wheel {
+	animation: spin 3.5s linear infinite;
+	transform-origin: center;
+}
+
+@keyframes move_background {
+  0% { background-position:1242px } 
+  100% { background-position:0 }
+}
+
+@keyframes spin {
+  0% { transform:rotate(100deg); }
+  100% { transform:rotate(560deg); }
+}
