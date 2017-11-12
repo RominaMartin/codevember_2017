@@ -11,3 +11,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/NwdoQo/
 - [x] Shake pan
 - [x] Add sauces
 - [ ] More animations to pan
+
+![](fries.gif)

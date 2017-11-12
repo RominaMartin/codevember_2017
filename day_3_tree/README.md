@@ -12,3 +12,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/NwNRrE/
 - [x] Restart game if all matches were found
 - [ ] Animate fliping cards
 - [ ] Show both cards when not matching and hide again
+
+![](tree.gif)

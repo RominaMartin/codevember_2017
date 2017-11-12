@@ -11,3 +11,5 @@ This pen was based on [Manz pen: Bernard (The Day of the Tentacle) CSS animation
 - [x] Sprites animation
 - [x] Parallax on other elements
 - [ ] Animate knight: jump
+
+![](sword.gif)

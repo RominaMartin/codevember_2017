@@ -9,3 +9,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/JOKgVb/
 - [x] Raining behind SVG image
 - [x] Raining music as default
 - [ ] Stop rain smoothly
+
+![](storm.gif)

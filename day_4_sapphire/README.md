@@ -8,3 +8,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/wPGEQN/
 ## Features:
 - [x] Change letters
 - [ ] Download image
+
+![](sapphire.gif)

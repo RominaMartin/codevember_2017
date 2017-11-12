@@ -11,3 +11,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/GOrKwG/
 - [x] Select fruits
 - [x] Shake fruits and get a smoothie
 - [ ] Animation shaking different colors
+
+![](fridge.gif)

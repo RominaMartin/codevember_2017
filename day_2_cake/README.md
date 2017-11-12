@@ -10,3 +10,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/xPZRKW/
 - [x] Custom cake colors
 - [x] Custom name for wishing a happy birthday
 - [ ] Download birthday card
+
+![](cake.gif)

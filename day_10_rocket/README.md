@@ -12,3 +12,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/mqWjzQ/
 - [x] Move rocket
 - [x] Collisions with meteor
 - [ ] Improve collisions
+
+![](rocket.gif)

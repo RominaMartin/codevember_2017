@@ -10,3 +10,5 @@ You can see it working in [codepen](https://codepen.io/RominaMartin/full/YEyaoY/
 - [x] Planets display
 - [x] Move rocket
 - [ ] Rocket rotation based on which planet is leading to.
+
+![](galaxy.gif)
