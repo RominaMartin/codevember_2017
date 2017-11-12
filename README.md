@@ -15,6 +15,7 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **9** | :fries: French Fries | [French fries](https://codepen.io/RominaMartin/full/NwdoQo/) |
 | **10** | :rocket: Rocket | [Rocket](https://codepen.io/RominaMartin/full/mqWjzQ/) |
 | **11** | :bike: Bike | [Bike](https://codepen.io/RominaMartin/full/eevqxr/) |
+| **12** | :bike: Zebra | [Zebra](https://codepen.io/RominaMartin/full/LOyWoa/) |
 
 
 # Author

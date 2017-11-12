@@ -1,0 +1,55 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+	background: radial-gradient(ellipse at center, rgba(230,214,199,1) 0%, rgba(195,179,164,1) 100%);
+  font-family: "Quicksand";
+}
+
+.header { position: absolute;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #666; }
+.number {color: #999}
+.type { color: #434140; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #7F6955; text-shadow: 1px 1px #A28E7B; text-align: center; margin-top: 80px; padding-bottom: 5px; }
+
+.content {
+  text-align: center;
+}
+.notes {
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .1)
+}
+#note {
+  color: #FFFBF7;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 2em;
+}
+
+.keys:active {
+  fill: #d2d1ca;
+}
+
+.keys.s:active {
+  fill: #33302e;
+}
+
+.dancing {
+  transform-origin: center;
+  animation: dance 1s ease-in-out infinite;
+}
+
+@keyframes dance {
+  0%{transform: rotate(5deg);}
+  50%{transform: rotate(-5deg)}
+  100%{transform: rotate(5deg);}
+
+}

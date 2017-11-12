@@ -7,6 +7,7 @@ html, body {
   font-family: "Quicksand";
 }
 
+.header { position: absolute;}
 .header h1, h2 { margin: 0; }
 .header h1 { color: #666; }
 .number {color: #999}
@@ -23,7 +24,7 @@ html, body {
 
 .bike svg {
 	position: absolute;
-  top: 280px;
+  top: 200px;
   height: 275px;
 }
 
