@@ -7,7 +7,7 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **1** | :rocket: Galaxy | [Galaxy](https://codepen.io/RominaMartin/full/YEyaoY/) |  - |
 | **2** | :cake: Cake | [Cake](https://codepen.io/RominaMartin/full/xPZRKW/) | :heavy_check_mark: |
 | **3** | :deciduous_tree: Tree| [Tree](https://codepen.io/RominaMartin/full/NwNRrE/) | - |
-| **4** | :gem: Sapphire | [Sapphire](https://codepen.io/RominaMartin/full/wPGEQN/)| :heavy_check_mark: \*November first week spark [link](https://codepen.io/spark/49)|
+| **4** | :gem: Sapphire | [Sapphire](https://codepen.io/RominaMartin/full/wPGEQN/)| :heavy_check_mark: November first week spark [link](https://codepen.io/spark/49)|
 | **5** | :hocho: Sword | [Sword](https://codepen.io/RominaMartin/full/PONMgy/) | - |
 | **6** | :umbrella: Storm | [Storm](https://codepen.io/RominaMartin/full/JOKgVb/) | :heavy_check_mark: |
 | **7** | :sheep: Pillow | [Pillow](https://codepen.io/RominaMartin/full/wPzVMd/) | - |
@@ -16,7 +16,9 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **10** | :rocket: Rocket | [Rocket](https://codepen.io/RominaMartin/full/mqWjzQ/) | - |
 | **11** | :bike: Bike | [Bike](https://codepen.io/RominaMartin/full/eevqxr/) | - |
 | **12** | :musical_keyboard: Zebra | [Zebra](https://codepen.io/RominaMartin/full/LOyWoa/) | :heavy_check_mark: |
-| **13** | :tangerine: Orange | [Orange](https://codepen.io/RominaMartin/full/MOovaa/) | |
+| **13** | :tangerine: Orange | [Orange](https://codepen.io/RominaMartin/full/MOovaa/) | - |
+| **14** | :cheese: Cheese | [Cheese](https://codepen.io/RominaMartin/full/bYreMK/) | :heavy_check_mark: |
+
 
 
 # Author
