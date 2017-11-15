@@ -1,0 +1,48 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+	background: radial-gradient(ellipse at center, rgba(188,208,215,1) 0%, rgba(10,32,46,1) 88%, rgba(10,32,46,1) 100%);
+  font-family: "Quicksand";
+  position: absolute;
+}
+
+.header { position: absolute;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #666; }
+.number {color: #999}
+.type { color: #fefefe; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #9ae5fc; text-shadow: 1px 1px #b1a0c2; text-align: center; margin-top: 80px; padding-bottom: 5px; letter-spacing: 4px;}
+
+h3.instructions {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px
+}
+
+svg {
+  max-width: 350px;
+}
+
+.content {
+  text-align: center;
+}
+
+#arm {
+    transition-duration: 1.4s;
+    transition-property: transform;
+    transform-origin: top right;
+
+}
+.rollDisc {
+  transform-origin: center;
+  animation: spin 2s linear infinite;
+}
+
+.moveArm {
+  transform: rotate(-15deg);
+}
+
+@keyframes spin { 100% { transform:rotate(360deg); } }
