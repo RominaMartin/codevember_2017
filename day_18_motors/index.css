@@ -1,0 +1,92 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+	background: radial-gradient(ellipse at center, rgba(244,151,57,1) 0%, rgba(176,43,74,1) 82%, rgba(176,43,74,1) 100%);
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #fff; }
+.number {color: #999}
+.type { color: #ff0; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #fefefe; text-shadow: 1px 1px #333; text-align: center; margin-top: 80px; padding-bottom: 5px; }
+h3.instructions {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.content {
+  text-align: center;
+}
+
+svg {
+  max-width: 450px;
+}
+
+#second_border {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 3000;
+  animation: line 7s linear forwards 1;
+}
+
+#first_shine path {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: line 2s linear forwards 1;
+  animation-delay: 6s;
+}
+
+#second_shine path {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: line 2s linear forwards 1;
+  animation-delay: 6.5s;
+}
+
+#green_gear {
+  transform-origin: center;
+  animation: spin 4s linear infinite;
+}
+
+#red_gear {
+  transform-origin: center;
+  animation: spin 6s linear infinite;
+}
+
+#grey_gear {
+  transform-origin: center;
+  animation: spin 3s linear infinite;
+}
+
+#white_gear {
+  transform-origin: center;
+  animation: spin_backwards 5s linear infinite;
+}
+
+#blue_gear {
+  transform-origin: center;
+  animation: spin_backwards 3s linear infinite;
+}
+
+#bottom_bulb {
+  animation: fill 3s ease-in 1;
+}
+
+#top_bulb {
+  animation: fill 5s ease-in 1;
+  animation-delay: 3s;
+}
+
+@keyframes spin { 100% { transform:rotate(360deg); } }
+@keyframes spin_backwards { 100% { transform:rotate(-360deg); } }
+
+@keyframes line {
+  to {stroke-dashoffset: 100; stroke:#FFCF21;}
+}

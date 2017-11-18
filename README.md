@@ -21,6 +21,7 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **15** | :metal: Rock | [Rock](https://codepen.io/RominaMartin/full/yPzVOa/) | |
 | **16** | :globe_with_meridians: Internet | [Internet](https://codepen.io/RominaMartin/full/jaaqRy/) | |
 | **17** | :fast_forward: Speed | [Speed](https://codepen.io/RominaMartin/full/JOMPmp/) | |
+| **18** | :gear: Motors | [Motors](https://codepen.io/RominaMartin/full/RjxZMV/) | |
 
 
 
