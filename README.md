@@ -22,9 +22,9 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **16** | :globe_with_meridians: Internet | [Internet](https://codepen.io/RominaMartin/full/jaaqRy/) | |
 | **17** | :fast_forward: Speed | [Speed](https://codepen.io/RominaMartin/full/JOMPmp/) | |
 | **18** | :gear: Motors | [Motors](https://codepen.io/RominaMartin/full/RjxZMV/) | |
-| **19** | :ocean: Ocean | [Ocean](https://codepen.io/RominaMartin/full/OOzoNm/) | |
+| **19** | :ocean: Ocean | [Ocean](https://codepen.io/RominaMartin/full/OOzoNm/) | :heavy_check_mark: |
 | **20** | :sunglasses: Swag | [Swag](https://codepen.io/RominaMartin/full/zPRWzP/) | |
-
+| **21** | :boxing_glove: Fight | [Fight](https://codepen.io/RominaMartin/full/aVYyKx/) | |
 
 
 # Author

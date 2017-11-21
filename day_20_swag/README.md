@@ -5,7 +5,7 @@
 This day has some swag. Glasses that animate "Swag" word appearing and moustache as well.
 Animation can be restarted.
 
-You can see it working in [codepen]()
+You can see it working in [codepen](https://codepen.io/RominaMartin/full/zPRWzP/)
 
 ## Features:
 - [x] Animate letters

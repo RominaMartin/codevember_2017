@@ -1,0 +1,95 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+	background: radial-gradient(ellipse at center, rgba(77,160,176,1) 0%, rgba(41,128,185,1) 100%);
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #fefefe; }
+.number {color: #dedede}
+.type { color: #434140; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #e83a4c; text-shadow: 1px 1px #f6f1ed; text-align: center; margin-top: 80px; padding-bottom: 5px; }
+h3.instructions {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.content {
+  text-align: center;
+}
+
+svg {
+  max-width: 475px;
+  margin-top: 120px;
+}
+
+#android_arm.arm.animate {
+  animation: shake 2s linear infinite;
+}
+#apple_arm.arm.animate {
+  animation: swing 2s linear infinite;
+}
+
+.windows_arm.arm.animate {
+  animation: swing 2s linear infinite;
+  transform-origin: bottom;
+}
+
+
+button {
+  font-family: "Quicksand";
+  border: none;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 45%;
+  top: 110px;
+}
+
+#fight {
+  background-color: #ec4647;
+  animation: bg 2s linear infinite;
+}
+
+#calm_down {
+  background-color: #95C45C;
+  animation: bgL 2s linear infinite;
+  display: none;
+}
+
+@keyframes bg {
+  0%,80%,100% {background-color: #ec4647}
+  20%,60% {background-color: #f1705c}
+}
+
+@keyframes bgL {
+  0%,80%,100% {background-color: #95C45C}
+  20%,60% {background-color: #a4b357}
+}
+
+@keyframes swing {
+    0%,100%{transform: rotate(1deg);}
+    50%{transform: rotate(-1deg)}
+}
+
+@keyframes shake {
+  2% {
+    transform: translate(1px, -1px) rotate(-0.5deg); }
+  5%, 90% {
+    transform: translate(2px, 3px) rotate(-0.5deg); }
+  10% {
+    transform: translate(-3px, 3px) rotate(-0.5deg); }
+  20%, 60% {
+    transform: translate(0px, -2px) rotate(-0.5deg); }
+}
