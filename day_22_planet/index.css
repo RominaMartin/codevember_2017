@@ -1,0 +1,58 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+	background: radial-gradient(ellipse at center, rgba(150,225,230,1) 0%, rgba(0,182,199,1) 100%);
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute; z-index: 1;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #fefefe; }
+.number {color: #dedede}
+.type { color: #434140; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #e83a4c; text-shadow: 1px 1px #f6f1ed; text-align: center; margin-top: 80px; padding-bottom: 5px; }
+h3.instructions {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.content {
+  text-align: center;
+}
+
+#trees_container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+#planet {
+  position: absolute;
+  left: 22%;
+  bottom: 0;
+  max-width: 500px;
+  transform-origin: center;
+  animation: bounce 1s alternate infinite;
+}
+
+#trees path {
+  animation: shake 3s linear infinite alternate;
+  transform-origin: bottom;
+}
+
+@keyframes bounce {
+    from { bottom: 0; }
+    to   { bottom: 50%; }
+}
+
+@keyframes shake {
+  0% {transform: rotate(-2deg)}
+  50% {transform: rotate(0deg)}
+  100% {transform: rotate(2deg)}
+}

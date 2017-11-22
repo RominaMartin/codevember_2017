@@ -2,12 +2,12 @@
 
 Codevember is a challenge for developers making a creative sketch by day during the whole month of November. 
 
-| Day   | Theme | CodePen | Picked |
+| Day   | Theme | CodePen | Picked in Codepen |
 |:-----:|:-----:|:-------:|:------: |
 | **1** | :rocket: Galaxy | [Galaxy](https://codepen.io/RominaMartin/full/YEyaoY/) |  - |
 | **2** | :cake: Cake | [Cake](https://codepen.io/RominaMartin/full/xPZRKW/) | :heavy_check_mark: |
 | **3** | :deciduous_tree: Tree| [Tree](https://codepen.io/RominaMartin/full/NwNRrE/) | - |
-| **4** | :gem: Sapphire | [Sapphire](https://codepen.io/RominaMartin/full/wPGEQN/)| :heavy_check_mark: November first week spark [link](https://codepen.io/spark/49)|
+| **4** | :gem: Sapphire | [Sapphire](https://codepen.io/RominaMartin/full/wPGEQN/)| :star:  |
 | **5** | :hocho: Sword | [Sword](https://codepen.io/RominaMartin/full/PONMgy/) | - |
 | **6** | :umbrella: Storm | [Storm](https://codepen.io/RominaMartin/full/JOKgVb/) | :heavy_check_mark: |
 | **7** | :sheep: Pillow | [Pillow](https://codepen.io/RominaMartin/full/wPzVMd/) | - |
@@ -24,8 +24,11 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **18** | :gear: Motors | [Motors](https://codepen.io/RominaMartin/full/RjxZMV/) | |
 | **19** | :ocean: Ocean | [Ocean](https://codepen.io/RominaMartin/full/OOzoNm/) | :heavy_check_mark: |
 | **20** | :sunglasses: Swag | [Swag](https://codepen.io/RominaMartin/full/zPRWzP/) | |
-| **21** | :boxing_glove: Fight | [Fight](https://codepen.io/RominaMartin/full/aVYyKx/) | |
+| **21** | :boxing_glove: Fight | [Fight](https://codepen.io/RominaMartin/full/aVYyKx/) | :heavy_check_mark: |
+| **22** | :earth_americas: Planet | [Planet](https://codepen.io/RominaMartin/full/YELEXE/) | |
 
+
+:star: November first week spark [link](https://codepen.io/spark/49)
 
 # Author
 ### Romina Martín
