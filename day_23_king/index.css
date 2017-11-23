@@ -68,12 +68,7 @@ h3.instructions {
   cursor: pointer;
 }
 
-.card .front {
-  background: #322E67;
-}
-
 .card .back {
-  background: blue;
   transform: rotateY( 180deg );
 }
 
