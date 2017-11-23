@@ -1,0 +1,92 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  background-image: url(https://raw.githubusercontent.com/RominaMartin/DressItUp/master/images/svgBackground.png);
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: GOT;
+  src: url("Game of Thrones.ttf");
+}
+
+.header { position: absolute; z-index: 1;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #fefefe; }
+.number {color: #dedede}
+.type { color: #ccc; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: #fff; text-shadow: -2px 4px #000; text-align: center; margin-top: 80px; padding-bottom: 5px;}
+h3.instructions {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px
+}
+
+
+.content {
+  text-align: center;
+  width: 700px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.card {
+  width: 175px;
+  height: 230px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  display: inline-flex;
+  margin: 25px;
+  margin-bottom: 30px;
+  font-family: GOT;
+}
+
+.card h2 {
+  font-size: 1.2em;
+}
+
+.card .votes {
+  font-size: 4em;
+  margin-top: 20%;
+}
+
+.card div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card .front {
+  background: #322E67;
+}
+
+.card .back {
+  background: blue;
+  transform: rotateY( 180deg );
+}
+
+.card .front, .card .back {
+  padding: 15px 5px;
+  background-image: url(./img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 5px;
+  border: 3px solid;
+}
+
+.card.flipped {
+  transform: rotateY( 180deg );
+}
