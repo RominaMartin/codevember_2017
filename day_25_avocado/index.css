@@ -1,0 +1,59 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+	background: #f4ffe1;
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute; z-index: 1;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #533156; }
+.number {color: #9ACC76}
+.type { color: #6B8C51; text-shadow: 2px 4px 3px rgba(0, 119, 119,0.3); }
+.social a img { height: 1.5em; }
+.description { color: rgba(172, 113, 50, .5); text-shadow: 1px 1px #f6f1ed; text-align: center; margin-top: 80px; padding-bottom: 5px; font-family: 'Coming Soon'; font-weight: bold}
+h3.instructions {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.content {
+  text-align: center;
+  width: 100%;
+}
+
+svg {
+  max-width: 550px;
+}
+
+#heart {
+  transform-origin: bottom;
+  animation: swing 2s linear forwards infinite, pulse 4s linear alternate infinite;
+}
+
+#left, #right {
+  transform-origin: bottom;
+  animation: swing 2s linear alternate infinite;
+}
+
+#left .arm {
+  transform-origin: center;
+  animation: swing 1s linear forwards infinite;
+}
+
+@keyframes pulse {
+  0% {opacity: .6}
+  50% {opacity: .8}
+  100% {opacity: 1}
+}
+
+@keyframes swing {
+  0%{transform: rotate(3deg);}
+  50%{transform: rotate(-3deg)}
+  100%{transform: rotate(3deg);}
+}
