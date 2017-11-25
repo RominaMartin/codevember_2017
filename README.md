@@ -2,8 +2,8 @@
 
 Codevember is a challenge for developers making a creative sketch by day during the whole month of November. 
 
-| Day   | Theme | CodePen | Picked in Codepen |
-|:-----:|:-----:|:-------:|:------: |
+| Day   | Theme | CodePen | Picked for Codepen Homepage|
+|:-----:|:-----:|:-------:|:--------------------------:|
 | **1** | :rocket: Galaxy | [Galaxy](https://codepen.io/RominaMartin/full/YEyaoY/) |  - |
 | **2** | :cake: Cake | [Cake](https://codepen.io/RominaMartin/full/xPZRKW/) | :heavy_check_mark: |
 | **3** | :deciduous_tree: Tree| [Tree](https://codepen.io/RominaMartin/full/NwNRrE/) | - |
@@ -18,15 +18,16 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **12** | :musical_keyboard: Zebra | [Zebra](https://codepen.io/RominaMartin/full/LOyWoa/) | :heavy_check_mark: |
 | **13** | :tangerine: Orange | [Orange](https://codepen.io/RominaMartin/full/MOovaa/) | - |
 | **14** | :cheese: Cheese | [Cheese](https://codepen.io/RominaMartin/full/bYreMK/) | :heavy_check_mark: |
-| **15** | :metal: Rock | [Rock](https://codepen.io/RominaMartin/full/yPzVOa/) | |
-| **16** | :globe_with_meridians: Internet | [Internet](https://codepen.io/RominaMartin/full/jaaqRy/) | |
-| **17** | :fast_forward: Speed | [Speed](https://codepen.io/RominaMartin/full/JOMPmp/) | |
-| **18** | :gear: Motors | [Motors](https://codepen.io/RominaMartin/full/RjxZMV/) | |
+| **15** | :metal: Rock | [Rock](https://codepen.io/RominaMartin/full/yPzVOa/) | - |
+| **16** | :globe_with_meridians: Internet | [Internet](https://codepen.io/RominaMartin/full/jaaqRy/) | - |
+| **17** | :fast_forward: Speed | [Speed](https://codepen.io/RominaMartin/full/JOMPmp/) | - |
+| **18** | :gear: Motors | [Motors](https://codepen.io/RominaMartin/full/RjxZMV/) | - |
 | **19** | :ocean: Ocean | [Ocean](https://codepen.io/RominaMartin/full/OOzoNm/) | :heavy_check_mark: |
-| **20** | :sunglasses: Swag | [Swag](https://codepen.io/RominaMartin/full/zPRWzP/) | |
+| **20** | :sunglasses: Swag | [Swag](https://codepen.io/RominaMartin/full/zPRWzP/) | - |
 | **21** | :boxing_glove: Fight | [Fight](https://codepen.io/RominaMartin/full/aVYyKx/) | :heavy_check_mark: |
-| **22** | :earth_americas: Planet | [Planet](https://codepen.io/RominaMartin/full/YELEXE/) | |
-| **23** | :crown: King | [King](https://codepen.io/RominaMartin/full/BmVjNX/) | |
+| **22** | :earth_americas: Planet | [Planet](https://codepen.io/RominaMartin/full/YELEXE/) | :heavy_check_mark: |
+| **23** | :crown: King | [King](https://codepen.io/RominaMartin/full/BmVjNX/) | :heavy_check_mark: |
+| **24** | :heart: Heart | [Heart](https://codepen.io/RominaMartin/full/XzYQRa/) | |
 
 
 :star: November first week spark [link](https://codepen.io/spark/49)
