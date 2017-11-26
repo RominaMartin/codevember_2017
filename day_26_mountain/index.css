@@ -1,0 +1,51 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+	background: #f4ffe1;
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute; z-index: 1;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #533156; }
+.number {color: #5B4332}
+.type { color: rgba(81, 53, 31, .6);; text-shadow: 2px 4px 3px rgba(0, 0, 0,0.3); }
+.social a img { height: 1.5em; }
+
+.content {
+  text-align: center;
+  width: 100%;
+}
+
+svg {
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+#background {
+  animation: turn 8s forwards infinite;
+  transform-origin: center;
+}
+
+#fan {
+  animation: turn 8s linear infinite;
+  transform-origin: center;
+}
+
+.window {
+  animation: pulse 8s ease-in-out infinite;
+}
+
+
+@keyframes pulse {
+  100% {fill: #333}
+}
+
+@keyframes turn {
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg)}
+  100%{transform: rotate(360deg);}
+}
