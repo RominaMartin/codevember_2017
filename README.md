@@ -29,7 +29,9 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **23** | :crown: King | [King](https://codepen.io/RominaMartin/full/BmVjNX/) | :heavy_check_mark: |
 | **24** | :heart: Heart | [Heart](https://codepen.io/RominaMartin/full/XzYQRa/) | :heavy_check_mark: |
 | **25** | :avocado: Avocado | [Avocado](https://codepen.io/RominaMartin/full/xPJVby/) | :heavy_check_mark: |
-| **26** | :mountain_snow: Mountain | [Mountain](https://codepen.io/RominaMartin/full/QOBxaM/) | |
+| **26** | :mountain_snow: Mountain | [Mountain](https://codepen.io/RominaMartin/full/QOBxaM/) | :heavy_check_mark: |
+| **27** | :beers: Beer | [Beer](https://codepen.io/RominaMartin/full/javapQ/) | :heavy_check_mark: |
+
 
 
 :star: November first week spark [link](https://codepen.io/spark/49)
