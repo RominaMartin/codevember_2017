@@ -1,0 +1,74 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  background: #f4ffe1;
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute; z-index: 1;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #533156; }
+.number {color: #5e6a79}
+.type { color: #b73718; text-shadow: 2px 4px 3px rgba(0, 0, 0,0.3); }
+.social a img { height: 1.5em; }
+
+.content {
+  text-align: center;
+  width: 100%;
+}
+
+svg {
+  max-width: 350px;
+}
+
+body {
+  animation: bg_animation 5s linear alternate infinite;
+}
+
+#body {
+  animation: turn .5s linear alternate infinite;
+  transform-origin: bottom;
+}
+
+#left_arm {
+  animation: left_arm 1s ease-in-out alternate infinite;
+  transform-origin: right;
+}
+
+#right_arm {
+  animation: right_arm 1s ease-in-out alternate infinite;
+  transform-origin: center;
+}
+
+#right_leg {
+  transform-origin: top;
+  animation: leg .25s ease-in-out alternate infinite;
+}
+
+@keyframes leg {
+  0%{transform: translateY(0px) }
+  100%{transform: translateY(-2px) }
+}
+
+@keyframes right_arm {
+  100%{transform: translateY(-5px) translateX(5px) rotate(-20deg)}
+}
+
+@keyframes left_arm {
+  100%{transform: translateY(5px) translateX(-5px) rotate(20deg)}
+}
+
+@keyframes turn {
+  0%{transform: translateY(-2px) rotate(-5deg)}
+  50%{transform: translateY(0px) rotate(0)}
+  100%{transform: translateY(-2px) rotate(10deg)}
+}
+
+@keyframes bg_animation {
+  0%{background-color: #A2DED0}
+  50%{background-color: #DCC6E0}
+  100%{background-color: #65C6BB}
+}

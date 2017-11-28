@@ -31,10 +31,11 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **25** | :avocado: Avocado | [Avocado](https://codepen.io/RominaMartin/full/xPJVby/) | :heavy_check_mark: |
 | **26** | :mountain_snow: Mountain | [Mountain](https://codepen.io/RominaMartin/full/QOBxaM/) | :heavy_check_mark: |
 | **27** | :beers: Beer | [Beer](https://codepen.io/RominaMartin/full/javapQ/) | :heavy_check_mark: |
+| **28** | :pencil2: Pen | [Pen](https://codepen.io/RominaMartin/full/KyGmxm/) |  |
 
 
 
-:star: November first week spark [link](https://codepen.io/spark/49)
+:star: November first week spark [link](https://codepen.io/spark/49). Here it's where you can find *all the can not miss links*.
 
 # Author
 ### Romina Martín
