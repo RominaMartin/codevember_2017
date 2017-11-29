@@ -1,0 +1,38 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  // background: #f0f0f0;
+  background-image: url(https://raw.githubusercontent.com/RominaMartin/DressItUp/master/images/svgBackground.png);
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute; z-index: 1;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #5B4332; }
+.number {color: #fff}
+.type { color: #ca9b76; text-shadow: 1px 2px 2px rgba(255, 255, 255, .4) }
+.social a img { height: 1.5em; }
+
+.content {
+  text-align: center;
+  width: 100%;
+}
+
+svg {
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+#giraffe path {
+  stroke-dasharray: 350;
+  stroke-dashoffset: 100;
+  animation: line 5s linear alternate infinite;
+}
+
+
+@keyframes line {
+  to {stroke-dashoffset: 1000; stroke:#333;}
+}
