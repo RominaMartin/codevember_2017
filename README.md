@@ -14,7 +14,7 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **8** | :male_detective: Fridge | [Fridge](https://codepen.io/RominaMartin/full/GOrKwG/) | :heavy_check_mark: |
 | **9** | :fries: French Fries | [French fries](https://codepen.io/RominaMartin/full/NwdoQo/) | - |
 | **10** | :rocket: Rocket | [Rocket](https://codepen.io/RominaMartin/full/mqWjzQ/) | - |
-| **11** | :bike: Bike | [Bike](https://codepen.io/RominaMartin/full/eevqxr/) | - |
+| **11** | :bike: Bike | [Bike](https://codepen.io/RominaMartin/full/eevqxr/) | :heavy_check_mark: |
 | **12** | :musical_keyboard: Zebra | [Zebra](https://codepen.io/RominaMartin/full/LOyWoa/) | :heavy_check_mark: |
 | **13** | :tangerine: Orange | [Orange](https://codepen.io/RominaMartin/full/MOovaa/) | - |
 | **14** | :cheese: Cheese | [Cheese](https://codepen.io/RominaMartin/full/bYreMK/) | :heavy_check_mark: |
@@ -32,11 +32,12 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **26** | :mountain_snow: Mountain | [Mountain](https://codepen.io/RominaMartin/full/QOBxaM/) | :heavy_check_mark: |
 | **27** | :beers: Beer | [Beer](https://codepen.io/RominaMartin/full/javapQ/) | :heavy_check_mark: |
 | **28** | :pencil2: Pen | [Pen](https://codepen.io/RominaMartin/full/KyGmxm/) | :heavy_check_mark: |
-| **29** | :tiger: Giraffe | [Giraffe](https://codepen.io/RominaMartin/full/MOzmqm/) | |
-
-
+| **29** | :tiger: Giraffe | [Giraffe](https://codepen.io/RominaMartin/full/MOzmqm/) | :heavy_check_mark: |
+| **30** | :comet: Supernova | [Supernova]() | |
 
 :star: November first week spark [link](https://codepen.io/spark/49). Here it's where you can find *all the can not miss links*.
+
+You can access the codepen whole collection from [here](https://codepen.io/collection/XOWxKd/)
 
 # Author
 ### Romina Martín

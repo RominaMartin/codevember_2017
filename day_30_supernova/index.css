@@ -1,0 +1,63 @@
+html, body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  // background: #f0f0f0;
+  background-image: url(https://raw.githubusercontent.com/RominaMartin/DressItUp/master/images/svgBackground.png);
+  font-family: "Quicksand";
+  position: absolute;
+  overflow: hidden;
+}
+
+.header { position: absolute; z-index: 1;}
+.header h1, h2 { margin: 0; }
+.header h1 { color: #ca1c24; }
+.number {color: #fff}
+.type { color: #ccc; text-shadow: 1px 2px 2px rgba(255, 255, 255, .4) }
+.social a img { height: 1.5em; }
+
+.content {
+  text-align: center;
+  width: 100%;
+}
+
+svg {
+  max-width: 650px;
+  margin-top: 50px;
+}
+
+svg text {
+  font-weight: bold;
+}
+
+#news {
+  animation: show 1s linear forwards 1;
+  animation-delay: 1s;
+}
+
+.eyes {
+  animation: blink 2s linear infinite;
+  transform-origin: 50%;
+  animation-delay: 2s;
+}
+
+#dinosaur {
+  animation: shake 2s linear alternate infinite;
+  animation-delay: 2s;
+}
+
+@keyframes show {
+  to { opacity: 1 }
+}
+
+@keyframes blink { 
+  70%  { transform: scaleX(1)   scaleY(1)  }
+  80%  { transform: scaleX(1.5) scaleY(.1) }
+  100% { transform: scaleX(1)   scaleY(1)  }
+}
+
+@keyframes shake {
+  0% { transform: translateX(-1px) }
+  20%, 80% { transform: translateX(1px) }
+  40%, 100% { transform: translateX(0px) }
+}
