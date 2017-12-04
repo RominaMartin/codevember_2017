@@ -33,11 +33,16 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **27** | :beers: Beer | [Beer](https://codepen.io/RominaMartin/full/javapQ/) | :heavy_check_mark: |
 | **28** | :pencil2: Pen | [Pen](https://codepen.io/RominaMartin/full/KyGmxm/) | :heavy_check_mark: |
 | **29** | :tiger: Giraffe | [Giraffe](https://codepen.io/RominaMartin/full/MOzmqm/) | :heavy_check_mark: |
-| **30** | :comet: Supernova | [Supernova]() | |
-
-:star: November first week spark [link](https://codepen.io/spark/49). Here it's where you can find *all the can not miss links*.
+| **30** | :comet: Supernova | [Supernova](https://codepen.io/RominaMartin/full/POXbBg/) | :heavy_check_mark: |
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/XOWxKd/)
+
+### Woaah!! 
+- :star: November first week spark [link](https://codepen.io/spark/49). Here you can find *all the can not miss links*.
+
+- I was mentioned in the codepen podcast when talking about Codevember, check it out [here](https://blog.codepen.io/2017/11/28/153-fond-farewell-codevember/)
+
+- 17 out of 30 pens selected to be on homepage! :heart:
 
 # Author
 ### Romina Martín
